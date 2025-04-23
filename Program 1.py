@@ -3,6 +3,6 @@ while True:
         int(input("enter number: "))
         print("valid")
         break
-    except:
+    except ValueError:
         print("invalid")
     
